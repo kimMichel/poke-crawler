@@ -1,0 +1,27 @@
+# Ignorar arquivos e diretórios padrão do sistema operacional
+*.swp
+.DS_Store
+
+# Ignorar arquivos e diretórios do Ruby
+Gemfile.lock
+.bundle/
+/.rbenv-gemsets
+/.ruby-gemset
+/.ruby-version
+
+# Ignorar arquivos gerados durante o desenvolvimento
+/coverage/
+/log/
+/tmp/
+/!**/README.md~
+
+# Ignorar arquivos específicos à IDE
+/.idea/
+/.vscode/
+
+# Ignorar arquivos de configuração
+/config/database.yml
+
+# Ignorar dependências do ambiente
+/vendor/bundle/
+/vendor/bundler/
